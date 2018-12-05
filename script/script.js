@@ -111,10 +111,13 @@ $(document).ready(function () {
             $(".parts4 .parts4Head .screen").css({ "animation-name": "tada", "animation-duration": "2s ", "visibility": "visible" })
         }
         else if (menubox > 3680 && menubox < 4000) {
-            $(".switch.active").removeClass("active").next($(".switch:nth(5)").addClass("active"))
+            $(".switch.active").removeClass("active").next($(".switch:nth(5)").addClass("active"));
         }
         else {
             return false;
+        }
+        if($( window ).width()<1170){
+            $(".switch.active").removeClass("active");
         }
         
         // Start Firt_menu Scrolling---------------------------------
