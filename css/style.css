@@ -273,9 +273,10 @@ nav .liline {
   .parts1 .first p {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    line-height: 1.8;
+    line-height: 2.4;
     font-size: 15px;
     color: #222;
+    margin-top: 28px;
     padding-bottom: 40px; }
   .parts1 .first a {
     color: white;
@@ -293,9 +294,6 @@ nav .liline {
 
 .scrollup {
   position: fixed;
-  background: #00e77b;
-  font-size: 10px;
-  color: black;
   border: 1px solid transparent;
   font-size: 25px;
   color: black;
@@ -303,7 +301,6 @@ nav .liline {
   background: linear-gradient(15deg, black, #5f0bbe, #00e77b);
   padding: 3px 10px 10px 13px;
   border-radius: 20%;
-  position: fixed;
   top: 92%;
   right: 10px;
   z-index: 15;
@@ -752,7 +749,7 @@ nav .liline {
         background: white;
         border: none;
         transform: rotate(-360deg);
-        transition: all 0.5s ease; }
+        transition: all 0.7s ease; }
   #designchange p {
     font-size: 20px;
     text-align: center;
